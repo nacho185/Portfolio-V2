@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--start loader-->
+    <section class="loader-container">
+      <div class="loader"></div>
+    </section>
+
+    <!--end start loader-->
+    <!--progress bar-->
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <!--navbar and front carousel-->
+
+    <div id="this-navbar" class="container flex navbar navbar-fixed-top">
+      <div class="branding-container">
+        <h1 class="branding">Ignacio Aguirre</h1>
+        <p class="branding-description">Cybersecurity + Web Development</p>
+      </div>
+
+      
+
+      <nav id="navContent" class="nav-tag-nav-bar">
+        <div class="media-links">
+          <a  href="https://github.com/nacho185">
+            <i class="fab fa-github"></i
+          ></a>
+        </div>
+        
+        <ul class="just-for-button-onclick-class" id="just-for-button-onclick">
+          <li>
+            <a href="#animationWrapper" class="activeLinkClass">Home</a>
+          </li>
+
+          <li>
+            <a href="#portfolio-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <i id="button-for-all-devices" class="fas fa-bars media-bars"></i>
+    </div>
+
+    <section id="animationWrapper" class="animation-area">
+      <div class="animation-area-text">
+        <h1
+          id="my-hello-spans"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          class="my-hello"
+        >
+          CS student focused on cybersecurity and secure web development.
+        </h1>
+        
+        <a
+          data-aos="fade-up"
+          data-aos-offset="150"
+          data-aos-delay="50"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          target="_blank"
+          href="https://nacho185.github.io/Resume-dev/"
+          class="resume"
+          >View Resume</a
+        >
+      </div>
+      <div>
+        <ul class="box-area">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+
+    <!--end navbar and front carousel-->
+     <!--projects-->
+
+    <section id="portfolio-link" class="wrapper-for-all-projects">
+      <div class="portfolio-intro">
+        <h1>Projects</h1>
+      </div>
+      <div class="project-container">
+        <div
+          data-aos=""
+          data-aos-offset="200"
+          data-aos-delay="150"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          class="project-card card-3"
+        >
+        <div class="card-content">
+          <h2 class="card-title">Nimbus</h2>
+          
+          <p class="card-body"> Real time weather application with live forecasts and location search. </p>
+            <div class="technologies-used">
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-js"></i>
+            </div>
+          
+          
+          <a
+            target="_blank"
+            href="https://nacho185.github.io/weather-app-v2/"
+            class="button-portfolio"
+            >Live Code</a
+          >
+        </div>
+        </div>
+        <div
+          data-aos=""
+          data-aos-offset="200"
+          data-aos-delay="150"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          class="project-card card-6"
+        >
+          <div class="card-content">
+            <h2 class="card-title">CSV Cleaner</h2>
+            
+            <p class="card-body">Upload a file, and the tool will remove duplicates, fix text formatting, and fill missing values, providing you with a cleaned version ready for use. </p>
+              <div class="technologies-used">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-python" style="color:#4584b6;"></i>
+              </div>
+            
+         
+            <a
+              target="_blank"
+              href="https://data-cleaner-5qdn.onrender.com/"
+              class="button-portfolio"
+              >Live Code</a
+            >
+          </div>
+        </div>
+        
+        <div
+          data-aos=""
+          data-aos-offset="200"
+          data-aos-delay="150"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          class="project-card card-5"
+        >
+          <div class="card-content">
+            <h2 class="card-title">Crypto Tracker</h2>
+           
+            <p class="card-body">
+              Enter the name of a cryptocurrency, and get the current price, market data, and trends from multiple exchanges using live API data.
+            
+              <div class="technologies-used">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-react"></i>
+              </div>
+            </p>
+          
+            <a
+              target="_blank"
+              href="https://nacho185.github.io/crypto-tracker/"
+              class="button-portfolio"
+              >Live Code</a
+            >
+          </div>
+        </div>
+        <div
+          data-aos=""
+          data-aos-offset="200"
+          data-aos-delay="150"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          class="project-card card-2"
+        >
+          <div class="card-content">
+            <h2 class="card-title">Email Validator</h2>
+            
+            <p class="card-body">This tool also identifies disposable email addresses and helps you avoid spam by validating whether an email is free or temporary.</p>
+              
+              <div class="technologies-used">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+            
+              </div>
+              
+            <a
+              target="_blank"
+              href="https://nacho185.github.io/Email-Validation/"
+              class="button-portfolio"
+              >Live Code</a
+            >
+            
+          </div>
+        </div>
+        <div
+          data-aos=""
+          data-aos-offset="200"
+          data-aos-delay="150"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          class="project-card card-1"
+        >
+          <div class="card-content">
+            <h2 class="card-title">Coming Soon</h2>
+            <p class="card-body">
+               New project currently in development.
+            </p>
+             
+              <div class="technologies-used">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i> 
+                <i class="fab fa-sass"></i>
+              </div>
+            
+            <a
+              target="_blank"
+              href=""
+              class="button-portfolio"
+              >Live Code</a
+            >
+          </div>
+        </div> 
+
+        <div
+          data-aos=""
+          data-aos-offset="200"
+          data-aos-delay="150"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          class="project-card card-4"
+        >
+          <div class="card-content">
+            <h2 class="card-title">Coming Soon</h2>
+            <p class="card-body">
+              New project currently in development.
+            </p>
+            
+              <div class="technologies-used">
+                <div class="skills-no-icon-no-icon-02-butFor-project">
+                  <img class="skills-no-icon-no-icon-02-butFor-project-img" src="./assets/img/wordpressIcon-forwebsite.png" alt="">
+                </div>
+                <i class="fab fa-html5"></i> 
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                
+              </div>
+           
+            <a
+              target="_blank"
+              href="https://ignacioaguirre.net/"
+              class="button-portfolio"
+              >Live Code</a
+            >
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!--end projects-->
+   <!--skills-->
+   <section id="skills" class="skills-wrapper">
+     <div class="skills-header"><h2 >Skills</h2></div>
+     
+     <div class="container">
+      <div class="skills-no-icon no-icon-02">
+        <img src="./assets/img/wordpressIcon-forwebsite.png" alt="">
+      </div>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-js"></i>
+        <i class="fab fa-react"></i>
+        <i class="fab fa-git-square"></i>
+        <div class="skills-no-icon">
+          <i class="fab fa-python" style="color:#4584b6;"></i>
+        </div>
+        <i class="fab fa-sass"></i>
+        
+     </div>
+   </section>
+   <!--end skills-->
+   
+<!--contact section-->
+<section id="contact" class="contact-wrapper">
+  <div class="contact-header"><h1>Let’s Connect</h1></div>
+  <p class="contact-subtitle">Open to internships, freelance work, and software development opportunities.</p>
+  <div class="container">
+    <div class="contact-01">
+      <a href="mailto:ignacio13542@gmail.com">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+    <div class="contact-04">
+      <a href="https://www.linkedin.com/in/ignacio-a-17b2a31ba/">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+    <div class="contact-02">
+      <a  target="_blank" href="https://github.com/nacho185"><a target="_blank" href="https://github.com/nacho185">
+  <i style="font-size: 4.5rem; color: #f8f8f8;" class="fab fa-github"></i>
+</a>
+</a>
+    </div>
+    <div class="contact-03">
+      <a href="tel:346-212-8318">
+        <i class="fas fa-phone-square"></i>
+      </a>
+    </div>
+  </div>
+</section>
+<!--end contact section-->
+    
+
+    <footer class="footer">
+  <small class="footer-text">
+    © Copyright
+    <script>
+      document.write(new Date().getFullYear());
+    </script>
+    Ignacio Aguirre — Built with HTML, CSS, JavaScript & caffeine ☕
+  </small>
+</footer>
+    <!--scripts-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
